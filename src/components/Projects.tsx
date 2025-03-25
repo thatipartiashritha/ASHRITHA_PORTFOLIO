@@ -14,6 +14,12 @@ const projects = [
     technologies: ['Python', 'Scikit-Learn', 'TensorFlow'],
     github: 'https://github.com/thatipartiashritha/fake_news_detection',
   },
+  {
+    title: 'Project To Do List',
+    description: 'A modern task management application with features like task categorization, priority levels, due dates, and progress tracking. Built with a clean and intuitive interface.',
+    technologies: ['React', 'TypeScript', 'Tailwind CSS'],
+    github: 'https://github.com/thatipartiashritha/To-do-list',
+  },
 ];
 
 const Projects = () => {
