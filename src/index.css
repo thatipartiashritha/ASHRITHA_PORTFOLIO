@@ -29,7 +29,7 @@
   }
 
   .glass-card {
-    @apply bg-red/80 dark:bg-gray-800/80 backdrop-blur-lg;
+    @apply bg-white/80 dark:bg-gray-800/80 backdrop-blur-lg;
   }
 
   .gradient-text {
