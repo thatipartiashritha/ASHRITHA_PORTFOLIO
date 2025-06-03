@@ -21,7 +21,7 @@ const NavBar: React.FC<NavBarProps> = ({ darkMode, toggleDarkMode }) => {
             whileHover={{ scale: 1.05 }}
             className="text-xl font-bold gradient-text"
           >
-            Ashritha Thatiparti
+            Portfolio
           </motion.h1>
           <div className="flex items-center space-x-6">
             <motion.a whileHover={{ scale: 1.1 }} href="#about" className="nav-link">About</motion.a>
