@@ -39,14 +39,12 @@ const Hero = () => {
                 repeat={Infinity}
               />
             </div>
-
-            {/* ✅ Updated Buttons */}
             <div className="flex gap-4">
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="#contact"
-                className="btn-outline px-8 py-3 inline-flex items-center"
+                className="btn-primary px-8 py-3"
               >
                 Hire Me
               </motion.a>
@@ -62,7 +60,7 @@ const Hero = () => {
               </motion.a>
             </div>
           </motion.div>
-
+          
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
