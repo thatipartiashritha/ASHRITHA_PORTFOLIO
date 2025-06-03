@@ -5,7 +5,7 @@ const certifications = [
   {
     title: 'Microsoft Azure Fundamentals',
     issuer: 'Microsoft',
-    driveUrl: 'https://drive.google.com/file/d/1234567890/view',
+    driveUrl: 'https://drive.google.com/file/d/17T2WYRcHBFmAhOHk1USvC2gR1v6VrrBL/view',
   },
   {
     title: 'Cisco Networks Certification',
