@@ -13,7 +13,7 @@ const NavBar: React.FC<NavBarProps> = ({ darkMode, toggleDarkMode }) => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="sticky top-0 z-50 glass-card shadow-lg backdrop-blur-sm bg-white/70 dark:bg-black/40"
+      className="sticky top-0 z-50 glass-card shadow-lg"
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
@@ -23,13 +23,12 @@ const NavBar: React.FC<NavBarProps> = ({ darkMode, toggleDarkMode }) => {
           >
             Portfolio
           </motion.h1>
-          <div className="flex items-center space-x-6 text-sm font-medium">
-            <motion.a whileHover={{ scale: 1.1 }} href="#about" className="nav-link">About Me</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="#skills" className="nav-link">Technical Skills</motion.a>
+          <div className="flex items-center space-x-6">
+            <motion.a whileHover={{ scale: 1.1 }} href="#about" className="nav-link">About</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} href="#skills" className="nav-link">Skills</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="#experience" className="nav-link">Experience</motion.a>
             <motion.a whileHover={{ scale: 1.1 }} href="#projects" className="nav-link">Projects</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="#certifications" className="nav-link">Certifications</motion.a>
-            <motion.a whileHover={{ scale: 1.1 }} href="#contact" className="nav-link">Contact Me</motion.a>
+            <motion.a whileHover={{ scale: 1.1 }} href="#contact" className="nav-link">Contact</motion.a>
             <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
@@ -47,6 +46,4 @@ const NavBar: React.FC<NavBarProps> = ({ darkMode, toggleDarkMode }) => {
       </div>
     </motion.nav>
   );
-};
-
-export default NavBar;
+}
