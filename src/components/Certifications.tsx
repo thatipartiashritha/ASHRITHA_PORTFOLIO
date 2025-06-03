@@ -10,17 +10,17 @@ const certifications = [
   {
     title: 'Cisco Networks Certification',
     issuer: 'Cisco',
-    driveUrl: 'https://drive.google.com/file/d/0987654321/view',
+    driveUrl: 'https://drive.google.com/file/d/1xBXHpqWabnW9dmV66XKhZOsoMs2IozE4/view?usp=sharing',
   },
   {
-    title: 'AWS Cloud Practitioner',
+    title: 'AWS Cloud Foundations',
     issuer: 'Amazon Web Services',
-    driveUrl: 'https://drive.google.com/file/d/1122334455/view',
+    driveUrl: 'https://drive.google.com/file/d/1s3WySU5Vpn108YXeqymm_dTEVGn8Nr0D/view?usp=sharing',
   },
   {
     title: 'Theory of Computation',
     issuer: 'NPTEL',
-    driveUrl: 'https://drive.google.com/file/d/5544332211/view',
+    driveUrl: 'https://drive.google.com/file/d/1oaMWbEydzLNXbkO6TyWL1HNt5np6BPVQ/view',
   },
 ];
 
