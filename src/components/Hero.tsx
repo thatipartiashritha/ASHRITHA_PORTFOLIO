@@ -44,7 +44,7 @@ const Hero = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="#contact"
-                className="btn-primary px-8 py-3"
+                className="px-6 py-3 rounded-xl bg-[#4B2D8B] text-white font-semibold hover:bg-[#3a2370] transition"
               >
                 Hire Me
               </motion.a>
@@ -53,7 +53,8 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 href="/ashritha_resume.pdf"
                 download
-                className="btn-outline px-8 py-3 inline-flex items-center"
+                className="px-6 py-3 rounded-xl border-2 border-[#4B2D8B] text-[#4B2D8B] font-semibold inline-flex items-center hover:bg-[#4B2D8B] hover:text-white transition"
+
               >
                 <Download className="w-5 h-5 mr-2" />
                 Download Resume
